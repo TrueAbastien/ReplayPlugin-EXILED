@@ -9,13 +9,13 @@ using System.Text;
 using System.Threading.Tasks;
 using EHandlers = Exiled.Events.Handlers;
 
-namespace TemplatePlugin
+namespace ReplayPlugin
 {
     public class Plugin : Plugin<Config>
     {
-        public override string Name { get; } = "Sample Plugin";
-        public override string Prefix { get; } = "smp";
-        public override string Author { get; } = "x";
+        public override string Name { get; } = "Replay";
+        public override string Prefix { get; } = "rpl";
+        public override string Author { get; } = "Abastien";
 
         private Handlers.Player player;
         private Handlers.Server server;

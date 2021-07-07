@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TemplatePlugin
+namespace ReplayPlugin
 {
     public class Config : IConfig
     {

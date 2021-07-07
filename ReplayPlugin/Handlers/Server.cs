@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using EAPI = Exiled.API.Features;
 
-namespace TemplatePlugin.Handlers
+namespace ReplayPlugin.Handlers
 {
     class Server
     {
