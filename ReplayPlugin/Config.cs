@@ -10,5 +10,7 @@ namespace ReplayPlugin
     public class Config : IConfig
     {
         public bool IsEnabled { get; set; } = true;
+
+        public float RefreshRate { get; set; } = .25f;
     }
 }
